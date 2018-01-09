@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Toomase veebileht</title>
+    <link rel="stylesheet" type="text/css" href="styling.css">
+  </head>
+  <body>
+    <h1>Tere tulemast Toomase veebilehele</h1>
+    <h2>Login</h2>
+    <form>
+      <label>
+        Email:
+        <input name="email" type="email" placeholder="email" required>
+      </label>
+      <label>
+        Password:
+        <input name="password" type="password" placeholder="password" required>
+      </label>
+      <!--<input type="email" name="email" placeholder="email" required>-->
+      <input type="submit">
+    </form>
+    <h2>See on teise taseme pealkiri</h2>
+    <!--see on minu esimene kood elus-->
+    <p><strong>Toomas</strong> &quot;Vokki&quot; profiilipildi leiate <a  href="https://www.facebook.com/photo.php?fbid=1395018193917905&set=a.107020072717730.15026.100002292146637&type=3&theater" title="Facebook profile photo" target="_blank">siit</a></p>
+    <p>Teisele leheküljele saab <a href="page2.html" target="_blank" title="second page">siit</a></p>
+    <img src="https://ichef.bbci.co.uk/images/ic/480x270/p01lckx1.jpg">
+    <h4>Listide tegemise harjutamine</h4>
+    <ol>
+      <li><strong>Sinine</strong></li>
+      <li><em>Must</em></li>
+      <li>Valge
+        <ul>
+          <li>üks</li>
+          <li>kaks
+            <ol>
+              <li id="proov1">hobune</li>
+              <li>auto</li>
+              <li>puu</li>
+            </ol>
+          </li>
+          <li>kolm</li>
+        </ul>
+      </li>
+    </ol>
+    <ul>
+      <li class="proov2">Sinine</li>
+      <li class="proov2">Must</li>
+      <li class="proov3">Valge</li>
+    </ul>
+    <div>
+    <h1>Lorem ipsumi tekst</h1>
+
+    Lorem <span>ipsum dolor sit amet</span>, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+
+    <p>
+    <table>
+    <thead>
+      <tr>
+        <th>Pilt</th>
+        <th>Nimi</th>
+        <th>Vanus</th>
+        <th>Kes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><img width="110" src="https://vignette.wikia.nocookie.net/pokemon/images/7/74/722Rowlet.png/revision/latest/scale-to-width-down/200?cb=20161221213856"></td>
+        <td>Toomas</td>
+        <td>21</td>
+        <td><a href="https://i.ytimg.com/vi/XYWJVHOQq6Q/maxresdefault.jpg" target="_blank">Inimene</a></td>
+      </tr>
+      <tr>
+        <td><img width="110" src="https://vignette.wikia.nocookie.net/pokemon/images/0/0e/725Litten.png/revision/latest/scale-to-width-down/200?cb=20161221214147"></td>
+        <td>Erko</td>
+        <td>13</td>
+        <td><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlX-pPrkBn0_4DQjDlT4DHxsX9ilZsdaFjhi0Mj9SIE-V62HCAPg" target="_blank">Koer</a></td>
+      </tr>
+    </tbody>
+    </table>
+    </p>
+    <p>Kes sulle rohkem meeldivad?</p>
+    <form>
+      <label for="dogs">Koerad</label>
+      <input name="LoomaValik" type="radio" id="dogs" value="KOERAD">
+      <label for="cats">Kassid</label>
+      <input name="LoomaValik" type="radio" id="cats" value="KASSID">
+
+      <p>Mis on Teie lemmikvärv?</p>
+      <select name="lemmikvärv">
+        <option>Punane</option>
+        <option>Sinine</option>
+        <option>Kollane</option>
+      </select>
+
+      <p>Milline on Teie tuju hetkel??</p>
+      <select name="tuju">
+        <option value="happy">:)</option>
+        <option value="emotionless">:|</option>
+        <option value="sad">:(</option>
+      </select>
+
+      <p>
+        <textarea name="kastitekst" rows="10" cols="50" placeholder="Kirjutage siia"></textarea>
+      </p>
+
+      <button>Go!</button>
+    </form>
+    
+    <h3>Registreerige ennast</h3>
+    <form>
+      <label>
+        Eesnimi:
+        <input type="text" name="Eesnimi" placeholder="Eesnimi" required>
+      </label>
+      
+      <label>
+        Perekonnanimi:
+        <input type="text" name="Perekonnanimi" placeholder="Perekonnanimi" required>
+      </label>
+      
+      <p>Sugu:
+      <label for="mees">Mees</label>
+      <input type="radio" name="Sugu" id="mees" value="Mees" required>
+      <label for="naine">Naine</label>
+      <input type="radio" name="Sugu" id="naine" value="Naine" required>
+      </p>
+
+      <p>
+      <label>
+        Email:
+        <input type="email" name="email" required placeholder="email">
+      </label>
+      <label>
+        Password:
+        <input type="password" name="password" required placeholder="password" pattern=".{5,10}" title="parool peab olema 5 kuni 10 tähemärki">
+      </label>
+      </p>
+      <p>
+        <label>
+          Birthday:
+          <select title="Month"  name="Month" required>
+            <option>Month</option>
+            <option value="Jaanuar">Jaanuar</option>
+            <option value="Veebruar">Veebruar</option>
+            <option value="Märts">Märts</option>
+          </select>
+          <select  name="Day" required>
+            <option value="0" selected="1">Day</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+          <select  name="Year" required>
+            <option value="1995">1995</option>
+            <option value="1996">1996</option>
+            <option value="1997">1997</option>
+          </select>
+        </label>
+      </p>
+      <p>
+        Ma nõustun kasutustingimustega <input type="checkbox" name="checkbox" required>
+      </p>
+
+      <input type="submit">
+    </form>
+  </body>
+</html>
